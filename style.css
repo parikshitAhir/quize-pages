@@ -24,30 +24,30 @@ body {
 section {
   padding: 23px 78px 20px 53px;
 }
-.img_main{
-    display: flex;
-    justify-content: space-between;
+.img_main {
+  display: flex;
+  justify-content: space-between;
 }
-.quizimg{
-    height: 8vh;
-    width: 9vw;
+.quizimg {
+  height: 8vh;
+  width: 9vw;
 }
-.spkimg{
-    width: 2.5vw;
-    height: 4vh;
+.spkimg {
+  width: 2.5vw;
+  height: 4vh;
 }
 
-.pageswift{
-    font-size: 25px;
-    font-weight: 600;
-    background-color: rgba(254, 195, 61, 1);
-    width: 6vw;
-    height: 6vh;
-    border-radius: 2px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
+.pageswift {
+  font-size: 25px;
+  font-weight: 600;
+  background-color: rgba(254, 195, 61, 1);
+  width: 6vw;
+  height: 6vh;
+  border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 section .que_text {
@@ -79,12 +79,12 @@ section .que_text {
 }
 
 .option_main {
-    padding: 21px 31px 21px 31px;
-    border-radius: 15px;
-    margin-top: 1rem;
-    background: rgba(245, 245, 245, 0.48);
-    width: 42vw;
-    height: auto;
+  padding: 21px 31px 21px 31px;
+  border-radius: 15px;
+  margin-top: 1rem;
+  background: rgba(245, 245, 245, 0.48);
+  width: 42vw;
+  height: auto;
 }
 
 section .option_list {
