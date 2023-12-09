@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+.quiz_box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.quiz_box {
+  width: 50vw;
+  height: auto;
+  background: rgba(204, 226, 194, 1);
+  border-radius: 5px;
+}
+section {
+  padding: 23px 78px 20px 53px;
+}
+.img_main{
+    display: flex;
+    justify-content: space-between;
+}
+.quizimg{
+    height: 8vh;
+    width: 9vw;
+}
+.spkimg{
+    width: 2.5vw;
+    height: 4vh;
+}
+
+.pageswift{
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgba(254, 195, 61, 1);
+    width: 6vw;
+    height: 6vh;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+section .que_text {
+  font-size: 30px;
+  border-radius: 15px;
+  height: 11vh;
+  font-weight: 600;
+  background: rgba(250, 246, 246, 0.48);
+  width: 42vw;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.ti {
+  color: white;
+  font-size: 20px;
+  background-color: rgba(7, 157, 14, 0.43);
+  width: 6vw;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+  margin-left: 34.5rem;
+  border-radius: 10px;
+}
+
+.option_main {
+    padding: 21px 31px 21px 31px;
+    border-radius: 15px;
+    margin-top: 1rem;
+    background: rgba(245, 245, 245, 0.48);
+    width: 42vw;
+    height: auto;
+}
+
+section .option_list {
+  padding: 6px 0px;
+  display: block;
+}
+section .option_list .option {
+  background: rgba(245, 245, 245, 0.48);
+  border: 1px solid #b0b0b0;
+  border-radius: 5px;
+  padding: 14px 15px;
+  font-size: 18px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: auto;
+}
+
+section .option_list .option:hover {
+  color: #004085;
+  background: #cce5ff;
+  border: 1px solid #b8daff;
+}
+
+footer {
+  height: 3vh;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer button {
+  padding: 0 42px;
+  font-size: 21px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: rgba(7, 157, 14, 0.43);
+  background: rgba(204, 226, 194, 1);
+  border-radius: 10px;
+  position: sticky;
+}
+
+footer button:hover {
+  font-weight: 1000;
+}
